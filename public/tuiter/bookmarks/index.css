@@ -98,3 +98,9 @@ body {
 .wd-action-count {
     margin-left: 12px;
 }
+
+.wd-edit-icon {
+    float: right;
+    margin-right: 20px;
+    color: #61dafb;
+}
