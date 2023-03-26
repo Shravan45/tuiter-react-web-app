@@ -1,18 +1,16 @@
 import React from "react";
-import PostListItem from "./post-list-item";
+import TuitItem from "./TuitItem";
 import {useSelector} from "react-redux";
 
-const PostList = () => {
+const TuitsList = () => {
     const postsArray = useSelector((state) => state.homeTuits)
     return (
         <div>
             {
-                postsArray.map(post => <PostListItem post={post}/>)
+                postsArray.map(post => <TuitItem post={post}/>)
             }
-
         </div>
-
     )
 }
 
-export default PostList;
+export default TuitsList
